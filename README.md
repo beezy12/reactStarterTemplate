@@ -30,3 +30,26 @@ resolve: Where Webpack should look for files referenced by an import or require(
 
 
 
+
+to compile: npm run compile
+Run npm run compile to test out your new command. It should create a file called www/bundle.js. Open up that file and take a look. You'll see your main.js 'Hello World' code in there, along with a lot of Webpack boilerplate.
+
+In practice, you wouldn't run npm run compile very often. This step is about knowing exactly what Webpack does so that things do not seem muddled when we add more pieces to the puzzle.
+
+Now remove the www/bundle.js file. We won't need it in future steps.
+
+
+
+
+A React development environment needs some way to show your app in a browser. That means you'll need a server. In this step you'll be setting up Express as your server.
+
+The main file added here is server.js. That file will run an Express server, which will run Webpack. Webpack will re-run any time you change one of your JavaScript files.
+
+server.js is server-side JavaScript. You can run it with the node server.js command. In this step you will also add a start script to run the server.
+
+You will create www/index.html as your first web page. Express is configured to serve all the files in that folder.
+
+
+to get React:
+npm install --save react react-dom
+
