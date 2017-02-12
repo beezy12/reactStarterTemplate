@@ -1,0 +1,27 @@
+{
+  "name": "reactStarterTemplate",
+  "version": "1.0.0",
+  "description": "taken from this source http://andrewhfarmer.com/build-your-own-starter/#0-intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beezy12/reactStarterTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beezy12/reactStarterTemplate/issues"
+  },
+  "homepage": "https://github.com/beezy12/reactStarterTemplate#readme",
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^2.2.1"
+  }
+}
