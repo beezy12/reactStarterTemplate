@@ -1,6 +1,6 @@
 
 taken from this source http://andrewhfarmer.com/build-your-own-starter/#0-intro
-
+here's his repo on Github: https://github.com/ahfarmer/minimal-react-starter
 
 
 

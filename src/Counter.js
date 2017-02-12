@@ -20,6 +20,7 @@ class Counter extends React.Component {
       >
         Count: {this.state.count}
       </button>
+      <Auth />
     );
   }
 }
